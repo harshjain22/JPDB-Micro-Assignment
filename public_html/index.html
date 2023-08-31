@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Micro Project (Harsh) </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            width: 800px;
+            /* Adjust the width as needed */
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="form-container">
+        <h1> Student Form Using the JPDB API </h1> <br>
+
+        <form id="stdForm"  method="get">
+            <div class="mb-3">
+                <label for="roll" class="form-label">Roll-No</label>
+                <input type="text" class="form-control" id="roll" onchange="getStd()">
+            </div>
+            <div class="mb-3">
+                <label for="fName" class="form-label">Full-Name</label>
+                <input type="text" class="form-control" id="fName">
+            </div>
+            <div class="mb-3">
+                <label for="class" class="form-label">Class</label>
+                <input type="text" class="form-control" id="class">
+            </div>
+            <div class="mb-3">
+                <label for="dob" class="form-label">Birth-Date</label>
+                <input type="date" class="form-control" id="dob">
+            </div>
+            <div class="mb-3">
+                <label for="address" class="form-label">Address</label>
+                <input type="text" class="form-control" id="address">
+            </div>
+            <div class="mb-3">
+                <label for="en" class="form-label">Enrollment-Date</label>
+                <input type="date" class="form-control" id="en">
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-primary mx-2" id="save" onclick="saveStudent()"
+                    disabled>Save</button>
+                <button type="button" class="btn btn-primary mx-2" id="change" onclick="updateStudent()"
+                    disabled>Update</button>
+                <button type="button" class="btn btn-primary mx-2" id="reset" onclick="resetForm()"
+                    disabled>Reset</button>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+    
+    <script src="index.js"></script>
+
+  
+</body>
+
+</html>
