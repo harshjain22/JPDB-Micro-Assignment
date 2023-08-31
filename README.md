@@ -7,13 +7,22 @@ JsonPowerDB is a Real-time, High Performance, Lightweight and Simple to Use, Res
 
 Benefits of using JsonPowerDB :
 
-Lightweight: Easy to set up and use for small to medium projects.
-Schema-Free: No rigid data structure requirements, offering flexibility.
-Real-Time: Optimized for rapid data retrieval and storage.
-Serverless Architecture: No need to manage complex servers.
-Query Language Support: Supports PowerSQL and potentially SQL.
-Multi-Mode Database: Functions as Key-Value, Document, Time Series, and API database.
-Built-in Search: Includes full-text search capabilities.
-ACID Properties: Supports data integrity and consistency.
-Scalability: Scales to accommodate growing data and application needs.
-Cloud Deployment: Likely supports deployment in cloud environments.
+1) Lightweight: Easy to set up and use for small to medium projects.
+
+2) Schema-Free: No rigid data structure requirements, offering flexibility.
+
+3) Real-Time: Optimized for rapid data retrieval and storage.
+
+4) Serverless Architecture: No need to manage complex servers.
+
+5) Query Language Support: Supports PowerSQL and potentially SQL.
+
+6) Multi-Mode Database: Functions as Key-Value, Document, Time Series, and API database.
+
+7) Built-in Search: Includes full-text search capabilities.
+
+8) ACID Properties: Supports data integrity and consistency.
+
+9) Scalability: Scales to accommodate growing data and application needs.
+
+10) Cloud Deployment: Likely supports deployment in cloud environments.
