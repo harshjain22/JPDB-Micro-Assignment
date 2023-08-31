@@ -26,3 +26,10 @@ Benefits of using JsonPowerDB :
 9) Scalability: Scales to accommodate growing data and application needs.
 
 10) Cloud Deployment: Likely supports deployment in cloud environments.
+
+
+SCREENSHOTS : 
+
+![image](https://github.com/harshjain22/JPDB-Micro-Assignment/assets/96140368/19d0a108-e352-49d5-ad37-b75cc7e95c96)
+
+![image](https://github.com/harshjain22/JPDB-Micro-Assignment/assets/96140368/54c12580-99a7-4adc-857f-0b48bcdd68ab)
